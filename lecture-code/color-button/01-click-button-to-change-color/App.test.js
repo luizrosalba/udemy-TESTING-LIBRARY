@@ -1,4 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
+// screen has access to VDom render 
+// fireEvent interacts with VDom 
 import App from './App';
 
 test('button has correct initial color', () => {
