@@ -10,6 +10,7 @@ import { useOrderDetails } from '../../contexts/OrderDetails';
 export default function Options({ optionType }) {
   const [items, setItems] = useState([]);
   const [error, setError] = useState(false);
+  // use the hook to update the state 
   const [orderDetails, updateItemCount] = useOrderDetails();
 
   // optionType is 'scoops' or 'toppings'
